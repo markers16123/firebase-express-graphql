@@ -33,20 +33,17 @@ var root = {
     }
 };
 
-var app = express();
-app.use(
-    '/graphql',
-    graphqlHTTP({
-        schema: schema,
-        rootValue: root,
-        graphiql: true
-    })
-);
-app.listen(4000);
-console.log('Running a GraphQL API server at localhost:4000/graphql');
+var server = graphqlHTTP({
+    schema: schema,
+    rootValue: root,
+    graphiql: true
+});
+
+exports.graphql = functions.https.onRequest(server);
 ```
 
 > nvm: command not found
+>
 > ```sh
 > ./functions$ npm install -g firebase-tools
 > ./functions$ nvm install 6.11.5

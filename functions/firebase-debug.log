@@ -1,0 +1,41 @@
+[debug] [2018-07-15T16:24:14.284Z] ----------------------------------------------------------------------
+[debug] [2018-07-15T16:24:14.287Z] Command:       /Users/markers16123/.nvm/versions/node/v6.11.5/bin/node /usr/local/bin/firebase serve
+[debug] [2018-07-15T16:24:14.287Z] CLI Version:   3.19.3
+[debug] [2018-07-15T16:24:14.287Z] Platform:      darwin
+[debug] [2018-07-15T16:24:14.287Z] Node Version:  v6.11.5
+[debug] [2018-07-15T16:24:14.288Z] Time:          Mon Jul 16 2018 01:24:14 GMT+0900 (KST)
+[debug] [2018-07-15T16:24:14.288Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-15T16:24:14.298Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-15T16:24:14.298Z] > authorizing via signed-in user
+[debug] [2018-07-15T16:24:14.300Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fir-express-graphql  
+  
+ Mon Jul 16 2018 01:24:14 GMT+0900 (KST)
+[debug] [2018-07-15T16:24:15.042Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-15T16:24:15.043Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fir-express-graphql/tokens  
+  
+ Mon Jul 16 2018 01:24:15 GMT+0900 (KST)
+[debug] [2018-07-15T16:24:15.717Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-15T16:24:15.718Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fir-express-graphql  
+  
+ Mon Jul 16 2018 01:24:15 GMT+0900 (KST)
+[debug] [2018-07-15T16:24:16.655Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/markers16123/mygit/firebase-express-graphql'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-07-15T16:24:17.159Z] Fetching environment
+[debug] [2018-07-15T16:24:17.161Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/222367084150:getServerAppConfig  
+  
+ Mon Jul 16 2018 01:24:17 GMT+0900 (KST)
+[debug] [2018-07-15T16:24:17.162Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/222367084150/clients/_:getWebAppConfig  
+  
+ Mon Jul 16 2018 01:24:17 GMT+0900 (KST)
+[debug] [2018-07-15T16:24:17.957Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-15T16:24:17.957Z] Starting @google-cloud/functions-emulator
+[debug] [2018-07-15T16:24:18.358Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2018-07-15T16:24:19.038Z] Parsing function triggers
+[info] ✔  functions: graphql: http://localhost:5001/fir-express-graphql/us-central1/graphql
