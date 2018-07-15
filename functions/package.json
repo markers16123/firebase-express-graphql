@@ -1,6 +1,9 @@
 {
   "name": "functions",
   "description": "Cloud Functions for Firebase",
+  "engines": {
+    "node": ">=6.11.5"
+  },
   "scripts": {
     "serve": "firebase serve --only functions",
     "shell": "firebase functions:shell",
@@ -11,8 +14,10 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
     "firebase-admin": "~5.12.1",
-    "firebase-functions": "^1.0.3"
+    "firebase-functions": "^1.0.3",
+    "graphql": "^0.13.2"
   },
   "private": true
 }
