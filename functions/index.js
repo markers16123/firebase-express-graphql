@@ -1,9 +1,11 @@
 const functions = require('firebase-functions');
+const bodyParser = require('body-parser')
+const express = require('express')
+const app = express();
+const routes = require('./routes')
 
-// // Create and Deploy Your First Cloud Functions
-// // https://firebase.google.com/docs/functions/write-firebase-functions
-//
-exports.api = functions.https.onRequest((request, response) => {
- response.send("Hello from Firebase!");
-});
+// parse application/json
+app.use(bodyParser.json())
+app.use('/', routes);
 
+exports.api = functions.https.onRequest(app);
