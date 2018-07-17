@@ -130,3 +130,9 @@ Now using nod v6.11.5 (64-bit)
     8.9.4
   * 6.11.5 (Currently using 64-bit executable)
 ```
+
+> 기본 버전 설정
+> ```sh
+> # Set 6.1.0 (or another version) as default
+> .$ nvm alias default 6.11.5
+> ```
