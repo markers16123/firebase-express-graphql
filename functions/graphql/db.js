@@ -15,8 +15,10 @@ const people = [{
     gender: 'female'
 }]
 
-module.exports = people;
-module.exports.getById = (id) => {
+const getById = (id) => {
     const filteredItems = people.filter(person => person.id === id)
     return filteredItems[0]
 }
+
+module.exports = people;
+module.exports.getById = getById;
