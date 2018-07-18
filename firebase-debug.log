@@ -1,0 +1,41 @@
+[debug] [2018-07-18T04:02:49.401Z] ----------------------------------------------------------------------
+[debug] [2018-07-18T04:02:49.403Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mark.FEELANET\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-07-18T04:02:49.404Z] CLI Version:   3.19.3
+[debug] [2018-07-18T04:02:49.404Z] Platform:      win32
+[debug] [2018-07-18T04:02:49.404Z] Node Version:  v6.11.5
+[debug] [2018-07-18T04:02:49.405Z] Time:          Wed Jul 18 2018 13:02:49 GMT+0900 (대한민국 표준시)
+[debug] [2018-07-18T04:02:49.405Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-18T04:02:49.419Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-18T04:02:49.419Z] > authorizing via signed-in user
+[debug] [2018-07-18T04:02:49.422Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fir-express-graphql  
+  
+ Wed Jul 18 2018 13:02:49 GMT+0900 (대한민국 표준시)
+[debug] [2018-07-18T04:02:50.360Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-18T04:02:50.361Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fir-express-graphql/tokens  
+  
+ Wed Jul 18 2018 13:02:50 GMT+0900 (대한민국 표준시)
+[debug] [2018-07-18T04:02:51.118Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-18T04:02:51.119Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fir-express-graphql  
+  
+ Wed Jul 18 2018 13:02:51 GMT+0900 (대한민국 표준시)
+[debug] [2018-07-18T04:02:52.088Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\mygit\firebase-graphql'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-07-18T04:02:52.985Z] Fetching environment
+[debug] [2018-07-18T04:02:52.987Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/222367084150:getServerAppConfig  
+  
+ Wed Jul 18 2018 13:02:52 GMT+0900 (대한민국 표준시)
+[debug] [2018-07-18T04:02:52.987Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/222367084150/clients/_:getWebAppConfig  
+  
+ Wed Jul 18 2018 13:02:52 GMT+0900 (대한민국 표준시)
+[debug] [2018-07-18T04:02:53.795Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-18T04:02:53.796Z] Starting @google-cloud/functions-emulator
+[debug] [2018-07-18T04:02:53.808Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-07-18T04:02:55.865Z] Parsing function triggers
+[info] +  functions: api: http://localhost:5001/fir-express-graphql/us-central1/api
