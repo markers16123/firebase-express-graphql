@@ -8,6 +8,8 @@
 .$ firebase deploy
 ```
 
+무료 `Functions`에서는 외부 네트워크에 접근할 수 없도록 제한된다. 예를 들면 RestAPI에서 public api에 접근하려고 하면 내부 에러(HTTP ERROR 500)이 발생한다. 이러한 제한을 제거하려면 빌링 구성을 해야한다.
+
 ## graphql
 
 ```sh
