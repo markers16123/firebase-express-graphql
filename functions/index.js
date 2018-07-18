@@ -1,3 +1,3 @@
 const functions = require('firebase-functions')
-const graphqlMiddleware = require('./graphql')
-exports.api = functions.https.onRequest(graphqlMiddleware);
+const app = require(__dirname + '/app')
+exports.api = functions.https.onRequest(app);
